@@ -5,9 +5,9 @@ title: Getting started with the Google Cloud Platform
 
 I had the opportunity to attend a course that would introduce me to practical aspects of cloud computing - from the building of small test models in small virtual machines to deploying such models and making them accessible to anyone - within the framework of the Google Cloud Platform. The session was taught by Benoit Dherin, a machine learning solutions engineer at Google's Advanced Solutions Lab (ASL). These posts will serve mainly as documentation for my own purposes with no audience in mind except for myself. Nonetheless, others may find these notes useful. 
 
-
-![_config.yml]({{ site.baseurl }}/images/GCP-snip.PNG)
-
+```
+  ![_config.yml]({{ site.baseurl }}/images/GCP-snip.PNG)
+```
 
 
 
@@ -23,9 +23,9 @@ I had the opportunity to attend a course that would introduce me to practical as
 
 
 4. Go back to you email address to confirm and log into QwikLabs
-
-![_config.yml]({{ site.baseurl }}/images/qwiklabs-login.png)
-
+```
+  ![_config.yml]({{ site.baseurl }}/images/qwiklabs-login.png)
+```
 
 5. You should be able to find a course called ML Immersion
 
