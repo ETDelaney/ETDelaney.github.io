@@ -5,10 +5,13 @@ title: Getting started with the Google Cloud Platform
 
 I had the opportunity to attend a course that would introduce me to practical aspects of cloud computing - from the building of small test models in small virtual machines to deploying such models and making them accessible to anyone - within the framework of the Google Cloud Platform. The session was taught by Benoit Dherin, a machine learning solutions engineer at Google's Advanced Solutions Lab (ASL). These posts will serve mainly as documentation for my own purposes with no audience in mind except for myself. Nonetheless, others may find these notes useful. 
 
+
 ![_config.yml]({{ site.baseurl }}/images/GCP-snip.PNG)
 
 
-Steps to getting started:
+
+
+###Steps to getting started:
 1. To begin with, a user should make sure he or she is in incogito mode to ensure the correct the correct account (and not a personal account) is billed.
 
 
