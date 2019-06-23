@@ -5,7 +5,7 @@ title: Getting started with the Google Cloud Platform
 
 I had the opportunity to attend a course that would introduce me to practical aspects of cloud computing - from the building of small test models in small virtual machines to deploying such models and making them accessible to anyone - within the framework of the Google Cloud Platform. The session was taught by Benoit Dherin, a machine learning solutions engineer at Google's Advanced Solutions Lab (ASL). These posts will serve mainly as documentation for my own purposes with no audience in mind except for myself. Nonetheless, others may find these notes useful. 
 
-![_config.yml]({{ site.baseurl }}/images/GCP_snip.png)
+![_config.yml]({{ site.baseurl }}/images/GCP_snip.PNG)
 
 
 Steps to getting started:
@@ -81,7 +81,7 @@ gcloud compute instances create ${INSTANCE_NAME} \
  
 13. Once you have cloned the repository, select the folder training-data-analyst to go into it and select Git icon on the left-hand side and make sure you are not working on the master branch, but on origin/asl-oslo:
 
-![_config.yml]({{ site.baseurl }}/images/git-head-switch.png)
+![_config.yml]({{ site.baseurl }}/images/git-head-switch.PNG)
 
 
 14. Everything is now set up! We can now and start on the first notebook, located at: 
