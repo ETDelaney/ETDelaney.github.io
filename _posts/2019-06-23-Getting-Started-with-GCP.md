@@ -11,7 +11,7 @@ I had the opportunity to attend a course that would introduce me to practical as
 
 
 
-###Steps to getting started:
+### Steps to getting started:
 1. To begin with, a user should make sure he or she is in incogito mode to ensure the correct the correct account (and not a personal account) is billed.
 
 
