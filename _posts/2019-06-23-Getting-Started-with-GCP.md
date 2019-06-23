@@ -78,6 +78,7 @@ gcloud compute instances create ${INSTANCE_NAME} \
 12. Once we have launched JupyterLab, we need to clone a repository from GitHub - select the git clone icon:
 
 ![_config.yml]({{ site.baseurl }}/images/jupterlab-git.PNG)
+
   and clone the following repository:
   **https://github.com/GoogleCloudPlatform/training-data-analyst.git**
  
