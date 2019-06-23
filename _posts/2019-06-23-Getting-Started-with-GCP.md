@@ -79,7 +79,7 @@ gcloud compute instances create ${INSTANCE_NAME} \
 
 ![_config.yml]({{ site.baseurl }}/images/jupterlab-git.PNG)
 
-  and clone the following repository:
+and clone the following repository:
   **https://github.com/GoogleCloudPlatform/training-data-analyst.git**
  
  
