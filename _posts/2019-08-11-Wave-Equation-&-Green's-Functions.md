@@ -12,6 +12,12 @@ This is all too much. Let us try to tackle the problem in small amounts. The pos
 
 A good nightmare for all aspiring physicist - the above figure is actually one of the gentler introductions to the Green's function. It has a familiar face in quantum mechanics and areas dealing with systems linear or linearized.
 
+### The seismic wave equation
+
+There are many wave equations and there are many ways to derive them. If we were to start with the 1D wave equation, we would have the following:
+
+$$\rho(x)\partial d_t\partial d_t u =
+
 $$\cfrac{d}{dt}\cfrac{\partial L}{\partial \dot{q}} = \cfrac{\partial L}{\partial q}$$
 
 
