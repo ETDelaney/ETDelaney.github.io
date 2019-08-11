@@ -9,6 +9,10 @@ This all too much. Let us try to tackle the problem in small amounts. The post i
 
 
   ![_config.yml]({{ site.baseurl }}/images/wapenaar-green-function.PNG)
+A good nightmare for all aspiring physcisits - the Green's function is not just for the geophysicist, but has a familiar face in quantum mechanics and systems linear or linearized.
+
+$$x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}.$$
+
 
 
 
