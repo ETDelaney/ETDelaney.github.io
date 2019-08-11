@@ -12,7 +12,7 @@ This is all too much. Let us try to tackle the problem in small amounts. The pos
 
 A good nightmare for all aspiring physicist - the above figure is actually one of the gentler introductions to the Green's function. It has a familiar face in quantum mechanics and areas dealing with systems linear or linearized.
 
-\\(x_{1,2} = {-b\pm\sqrt{b^2 - 4ac} \over 2a}\\)
+$$\cfrac{d}{dt}\cfrac{\partial L}{\partial \dot{q}} = \cfrac{\partial L}{\partial q}$$
 
 
 
