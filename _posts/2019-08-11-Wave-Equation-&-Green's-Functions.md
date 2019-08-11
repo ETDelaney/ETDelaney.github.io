@@ -8,7 +8,7 @@ For me at least, the introduction to the term 'Green's Function' was extremely c
 This all too much. Let us try to tackle the problem in small amounts. The post is titled Wave Equation and Green's Functions, but let us see how far we get. For now at least, I will try to keep it high-level and discuss numerical solving the wave equation and caveats on Green's function modelling.
 
 
-  ![_config.yml]({{ site.baseurl }}/images/.PNG)
+  ![_config.yml]({{ site.baseurl }}/images/wapenaar-green-function.PNG)
 
 
 
