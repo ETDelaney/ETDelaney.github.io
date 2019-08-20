@@ -2,7 +2,7 @@
 <html>
   <!-- Mathjax Support -->
 
-  
+
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
@@ -16,9 +16,18 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- To get LaTex to display - https://kansoy.github.io/Latex-Equations-in-Jekyll-and-Markdown -->
+    <!-- http://docs.mathjax.org/en/latest/index.html -->
     <script type="text/javascript" async
       src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
     </script>
+
+    <!-- LaTeX auto numbering -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        TeX: { equationNumbers: { autoNumber: "AMS" } }
+      });
+      </script>
   </head>
 
   <body>
