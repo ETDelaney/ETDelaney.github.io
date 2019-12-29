@@ -6,6 +6,9 @@ permalink: /about/
 
 Task manager and research geophysicist at Equinor - with focus on developing scalable and value-adding screening techniques using physics- and data-driven models for prospect maturation and reservoir characterization on the NCS, UKCS, GOM, Brazil, and other global strategic interests.
 
+Interests outside of O&G energy focus include blue and green hydrogen, CCS, geothermal, and clean thorium fissile solutions.
+
+
 ### More Information
 
 Ongoing collaboration with the Wave Physics department at ETH Zurich - with focus on numerical modelling/inversion and seismic interferometry.
