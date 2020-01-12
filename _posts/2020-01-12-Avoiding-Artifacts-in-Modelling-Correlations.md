@@ -31,4 +31,6 @@ This very dispersive Green's function is not a concern once it is convolved by t
 
 Returning back to the correlations, we still see some minor reverberations - and we might want to try to take them out by extending the time vector further, extending the absorbing boundaries, applying a taper, or exploiting the FFT and selectiively removing frequencies.
 
-The easiest solution though may be to extend the domain such that the Green's function does not interact with the absorbing boundary until a bit later.
+The easiest solution though may be to extend the domain such that the Green's function does not interact with the absorbing boundary until a bit later. However, the model velocity is about 360 m/s and with a frequency spectrum from 0.55-0.95 Hz, we are dealing with maximum contriubtion of about 650 m. The boundaries are about a km away, which is more than the rule-of-thumb of about 1.5x the wavelength from the boundary.
+
+So, a taper is probably more than good enough.
