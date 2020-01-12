@@ -34,3 +34,8 @@ Returning back to the correlations, we still see some minor reverberations - and
 The easiest solution though may be to extend the domain such that the Green's function does not interact with the absorbing boundary until a bit later. However, the model velocity is about 360 m/s and with a frequency spectrum from 0.55-0.95 Hz, we are dealing with maximum contriubtion of about 650 m. The boundaries are about a km away, which is more than the rule-of-thumb of about 1.5x the wavelength from the boundary.
 
 So, a taper is probably more than good enough.
+
+### Summary
+Further testing shows that like always - it is model domain specific. Using a smaller domain helps us to capture the lower frequency trends, which will get filtered out when convolved with the source spectrum. If we choose a larger domain, we will need to propagate the wavefield even longer as the reflection will come at a later time. Either we need to capture the low frequency trend or we need to make a domain that is so large that the reflection does not return.
+
+So the best solution appears to be to choose a small enough domain and extend the time propagation long enough to get the low frequencies which we can later filter out.
