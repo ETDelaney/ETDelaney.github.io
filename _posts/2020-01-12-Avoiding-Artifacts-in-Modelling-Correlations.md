@@ -25,7 +25,7 @@ These effects or probably most like most noticeable when modelling in 2D, simply
 
 We see that perhaps the problem stems from two issues: the fact that the absorbing boundary creates a reflection when the Green's function is still strong and that we cut off the Green's function right during the time this reflection is interacting with the source at the platform. By extending the time duration we can allow the low frequency dip in amplitude from the absorbing boundary to return back to zero:
 
-  ![_config.yml]({{ site.baseurl }}/images/2D-green-function-dispersive.PNG)
+  ![_config.yml]({{ site.baseurl }}/images/2D-green-function-dispersive.png)
 
 This very dispersive Green's function is not a concern once it is convolved by the power spectral density of the noise source, which is only around 1-2 Hz.
 
