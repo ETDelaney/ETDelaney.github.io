@@ -2,13 +2,11 @@
 layout: post
 title: Avoiding interfometry artifacts when modelling correlations
 ---
-When modelling correlation functions, we are prone to artifacts that may be related to the absorbing boundaries, the failure to satisfy the Courant criteria, not sampling the wavefield at least 10 times per wavelength (you need to do much better than Nyquist here), not discretizing the frequency vector properly (if you are doing on-the-fly Fourier transforms), etc.
-
-Most of these are easy to spot - however, I encountered an artifact that was a bit strange:
+When modelling correlation functions, we are prone to artifacts that may be related to the absorbing boundaries, the failure to satisfy the Courant criteria, not sampling the wavefield at least 10 times per wavelength (you need to do much better than Nyquist here), not discretizing the frequency vector properly (if you are doing on-the-fly Fourier transforms), etc. Most of these are easy to spot - however, I encountered an artifact that was a bit strange:
 
   ![_config.yml]({{ site.baseurl }}/images/correlation-model-short-time.png)
 
-The acausal part is from receiver pair 036-001, whereas the causal is from 001-036. The reason for the lack of symmetry is due to a strong noise source presence north of the platform:
+The acausal part is from receiver pair 036-001, whereas the causal is from 001-036. The reason for the lack of symmetry is due to a strong noise source presence north of the array - at the location of the Oseberg C platform - see http://www.geo.uu.nl/~fichtner/papers/2017_Delaney_Geophysics.pdf:
 
   ![_config.yml]({{ site.baseurl }}/images/source-structure-layout-SWIM.png)
 
