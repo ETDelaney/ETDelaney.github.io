@@ -17,6 +17,18 @@ These problems simply result from not allowing the Green's function to propogate
 
   ![_config.yml]({{ site.baseurl }}/images/correlation-model-longer-time.png)
 
-These effects or probably most like most noticeable when modelling in 2D, simply because the Green's function in 2D is not finite and has a tail that extends to infinite time. We need to extend the time propogation a bit longer to capture a significant part of this tail.
+These effects or probably most like most noticeable when modelling in 2D, simply because the Green's function in 2D is not finite and has a tail that extends to infinite time. We need to extend the time propogation a bit longer to capture a significant part of this tail. Let us look at the modelled Green's function at an early stage and a later stage of propagation:
 
-We still see some minor reverberations - and we might want to try to take them out by extending the time vector further, extending the absorbing boundaries, applying a taper, or exploiting the FFT and selectiively removing frequencies.
+  ![_config.yml]({{ site.baseurl }}/images/green-function-initial.PNG)
+
+  ![_config.yml]({{ site.baseurl }}/images/green-function-later.PNG)
+
+We see that perhaps the problem stems from two issues: the fact that the absorbing boundary creates a reflection when the Green's function is still strong and that we cut off the Green's function right during the time this reflection is interacting with the source at the platform. By extending the time duration we can allow the low frequency dip in amplitude from the absorbing boundary to return back to zero:
+
+  ![_config.yml]({{ site.baseurl }}/images/2D-green-function-dispersive.PNG)
+
+This very dispersive Green's function is not a concern once it is convolved by the power spectral density of the noise source, which is only around 1-2 Hz.
+
+Returning back to the correlations, we still see some minor reverberations - and we might want to try to take them out by extending the time vector further, extending the absorbing boundaries, applying a taper, or exploiting the FFT and selectiively removing frequencies.
+
+The easiest solution though may be to extend the domain such that the Green's function does not interact with the absorbing boundary until a bit later.
