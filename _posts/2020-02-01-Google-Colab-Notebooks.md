@@ -53,11 +53,11 @@ It may be that what you may need to type is different dependent on your operatin
 
 And then maybe we have a requirements.txt file that contains certain packages that we want. Such a requirements.txt file would be a simple list such as:
 
-matplotlib==3.1.1
+`matplotlib==3.1.1`
 
-pandas==0.25.2
+`pandas==0.25.2`
 
-tensorflow==2.1.0
+`tensorflow==2.1.0`
 
 
 Simply navigate to the area containing your requirements.txt and do:
