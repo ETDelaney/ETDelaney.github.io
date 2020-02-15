@@ -195,6 +195,13 @@ array([False, False, False, False, False, False,  True,  True,  True,
 
 <hr>
 
+### Numpy Operations
+#### .sum()
+If you have a 2d-array, `.sum(axis=0)` means to sum <b>across</b> the rows, whereas `.sum(axis=1)` is across columns
+
+#### .std()
+#### .var()
+
 
 
 
