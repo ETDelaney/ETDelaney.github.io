@@ -37,7 +37,7 @@ Given that we have assumed some Q, we could then remove the contribution from th
 ### Absorbing boundaries
 Most likely, it is due to the absorbing boundaries. You can read more about this in:
 
-[Avoiding interfometry artifacts when modelling correlations](https://etdelaney.github.io/Avoiding-Artifacts-in-Modelling-Correlations/)
+[Avoiding interfometry artifacts when modelling correlations](https://etdelaney.github.io/Avoiding-Artifacts-in-Modelling-Correlations)
 
 ### Be lazy, hammer it with Fourier
 Theory is nice, but I would also like to try a more practical approach to this problem. Let us just take the final product and remove the frequencies that should not be there. You could first view the modelled spectrum as such:
