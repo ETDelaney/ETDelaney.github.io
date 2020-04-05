@@ -123,3 +123,54 @@ hr is the element, whereas size is the attribute - you can also find out more ab
 <https://archive.org/web/>
 
 Take a look out how www.google.com looked like in the past.
+
+### Boilerplate Code
+Printing press for plate ... looks like plate on steamships... so Boilerplate.
+
+With the emmet plug-in you can just type 'html' and press enter to get the Boilerplate for HTML:
+
+```html
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    
+  </body>
+</html>
+```
+
+### <head>
+The hard part is for the title in the tab, setting up the encoding, meta tags, etc.
+
+Refer to docs.emmet.io/cheat-sheet for more info. You can also do `html:4t` and press enter to see how annoying these doctypes were in the past.
+
+#### UTF-8
+Encoding system... what characters that it can render. Standard encoding - you should use. Can also use emojis.
+
+<b> It is important to know what encoding you are using for a string!! </b>
+
+You may get lucky if you are using English, since most encodings have the same map from 0 to 127 - after that though, good luck! 
+
+The history goes something like EBCDIC --> ASCII --> OEM --> Unicode (with code points and encodings) ... and watch out for a little and big endian.
+
+For more info, a good page is here:
+<https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/>
+
+#### Mojibake
+Characters that are transformed - Browser trying to read the characters, but they are jumbled due to the website being interpreted using the wrong encoding system.
+
+#### Meta tags
+Give information to search engines
+
+##### Description attribute
+Attributes are useful for crawling.
+
+### <body>
+Give the website content in the body section.
+
+### <em> versus <i> and <strong> versus <b>
+Stick to `<em>` and `<strong>` since these convey information on structure, which is the point of html; whereas the others are only stylistic.
+
