@@ -93,3 +93,4 @@ Without any correction of the recorded wavefield, I get a kernel that looks like
 
   ![_config.yml]({{ site.baseurl }}/images/structure-kernel-with-low-fr-noise.PNG)
 
+
